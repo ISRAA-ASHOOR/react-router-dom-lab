@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const initialState = {
     name: '',
+    size: 'small',
 };
 
 const PokemonForm = (props) => {
@@ -37,6 +38,7 @@ const PokemonForm = (props) => {
             <select
                 id="size"
                 name="size"
+                value={formData.size}
                 onChange={handleChange}
             >
                 <option value="small">Small</option>
