@@ -6,7 +6,7 @@ const initialState = {
     size: 'small',
 };
 
-const PokemonForm = (props) => {
+const MailboxForm = (props) => {
     const navigate = useNavigate();
     const [formData, setFormData] = useState(initialState);
 
@@ -52,4 +52,4 @@ const PokemonForm = (props) => {
   );
 };
 
-export default PokemonForm;
+export default MailboxForm;
